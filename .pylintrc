@@ -1,0 +1,17 @@
+[MASTER]
+ignore=
+    static,
+    templates,
+    migrations,
+    apps.py,
+    wsgi.py,
+    manage.py,
+    requirements.txt,
+    Dockerfile,
+    entrypoint.sh,
+    setup.cfg
+
+disable=C0114
+
+[BASIC]
+min-public-methods=0
